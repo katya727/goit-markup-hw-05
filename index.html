@@ -433,8 +433,9 @@
           </ul>
         </div>
       </section>
-      <!-- end section portfolio-->
     </main>
+    <!-- end section portfolio-->
+
     <!-- region footer -->
     <footer class="section-footer-info">
       <div class="container_">
@@ -483,6 +484,7 @@
       </div>
     </footer>
     <!--  end regio footer -->
+
     <!-- region buckdrop -->
     <div class="backdrop is-open">
       <div class="modal-window">
@@ -492,7 +494,7 @@
           </svg>
         </button>
         <p class="model-text">Leave your contacts and we will call you back</p>
-        <from class="model-form">
+        <form class="model-form">
           <div class="modal-container-block">
             <label class="form-label" for="user-text">Name</label>
             <div class="form-input">
@@ -504,7 +506,7 @@
                 title="name"
                 placeholder="Katarina"
                 pattern="[a-zA-Zа-яА-Яї-Їі-Іє-Є']{20}"
-                tupe="text"
+                type="text"
               />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#user"></use>
@@ -522,7 +524,7 @@
                 title="+380"
                 placeholder="+380"
                 pattern="[a-zA-Zа-яА-Яї-Їі-Іє-Є']{20}"
-                tupe="tel"
+                type="tel"
               />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#phone"></use>
@@ -540,7 +542,7 @@
                 title="test@gmail.com"
                 placeholder="test@gmail.com"
                 pattern="[a-zA-Zа-яА-Яї-Їі-Іє-Є']{20}"
-                tupe="email"
+                type="email"
               />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#mail"></use>
@@ -550,11 +552,12 @@
           <div>
             <label class="form-label" for="user-comment">Comment</label>
             <textarea
-              name=""
+              name="user-comment"
               id="user-comment"
               placeholder="text input"
               class="user-comment"
-            ></textarea>
+            >
+            </textarea>
           </div>
           <div class="modal-form-con-checkbox">
             <input
@@ -572,7 +575,7 @@
             </label>
           </div>
           <button class="button-checkbox" type="submit">Send</button>
-        </from>
+        </form>
       </div>
     </div>
     <!-- end region buckdrop -->
