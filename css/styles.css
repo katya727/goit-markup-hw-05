@@ -673,10 +673,12 @@ border: none;
 }
 .close-button:focus{
 background-color: #404bbf;
+fill: #ffffff;
+border: none;
 }
 
 .close-button-icon {
-
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-text{
@@ -688,7 +690,7 @@ background-color: #404bbf;
 }
 
 .modal-container-block {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-label {
@@ -717,6 +719,11 @@ background-color: #404bbf;
 
 }
 
+.modal-input:focus{
+    border-color: #4D5AE5;
+    fill: #4D5AE5;
+}
+
 .modal-input::placeholder{
     font: 400 12px / 1.16 "Roboto", sans-serif;
     letter-spacing: 0.04em;
@@ -734,7 +741,6 @@ background-color: #404bbf;
 }
 
 .modal-icon:focus+.modal-input:focus{
-    fill: #4D5AE5;
     border-color: #4D5AE5;
     
 }
@@ -778,6 +784,12 @@ background-color: #404bbf;
     border: transparent;
     fill: #F4F4FD;
 
+}
+
+.checkbox:checked{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .user-comment{
