@@ -613,19 +613,23 @@ display: inline-block;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    
 }
 
-.subscribe-form {}
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
 
-.subscribe-block {
+/* .subscribe-block {
     display: flex;
     justify-content: center;
     align-items: center;
     
-}
+} */
 
 .subscribe-label {
-    gap: 24px;
+    
 }
 
 .subscribe-inpyt {
