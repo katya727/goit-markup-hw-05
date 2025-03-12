@@ -624,20 +624,24 @@ display: inline-block;
     
 }
 
-.subscribe-label {}
+.subscribe-label {
+    gap: 24px;
+}
 
 .subscribe-inpyt {
         outline: transparent;
         background-color: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border: 1px solid #fff;
+        border: 1px solid #ffffff;
         border-radius: 4px;
         width: 264px;
         height: 40px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        color: #F4F4FD;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        color: #ffffff;
         padding-left: 16px;
-        
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
 }
 
 .subscribe-inpyt:focus{
@@ -647,20 +651,25 @@ display: inline-block;
 .subscribe-inpyt::placeholder{
     font: 400 12px / 2 "Roboto", sans-serif;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     
 }
 .subscribe-button {
     border: none;
     border-radius: 4px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    background-color: #4d5ae5;
-    color: #F4F4FD;
+    background-color: #4D5AE5;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 
 }
 
@@ -672,7 +681,6 @@ background-color: #404bbf; ;
     fill:none;
     stroke: #F4F4FD;
     margin-left: 16px;
-   
 }
 /* end region footer */
 
